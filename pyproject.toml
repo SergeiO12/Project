@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "last project"
+version = "0.1.0"
+description = "Model for detection of hand-written digits"
+authors = ["Orlov Sergei <orlov.sv@phystech.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
